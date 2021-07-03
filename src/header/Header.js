@@ -4,10 +4,11 @@ import { useHistory } from "react-router";
 import "./Header.css";
 import logo from "../images/logo.png";
 import { Icon } from "semantic-ui-react";
+import Banner from "../banner/Banner";
 const Header = () => {
   return (
     <div className="nav-container">
-      <Container fluid>
+      <Container fluid className="nav-top-fluid">
         <Container className="nav-top">
           <Row>
             <Col className="d-none d-md-block">
